@@ -1,6 +1,6 @@
 .nav {
   display: flex;
-  // justify-content: center;
+  justify-content: center;
   align-items: center;
   column-gap: 580px;
   pointer-events: all;
@@ -21,6 +21,12 @@
     font-size: 18px;
     line-height: 1.22;
   }
+}
+
+.nav__logo {
+  position: relative;
+  display: flex;
+  justify-content: left;
 }
 
 .nav__list a {
